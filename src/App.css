@@ -48,3 +48,73 @@ input {
   font-size: calc(10px + 1vmin);
   font-weight: 500;
 }
+
+
+.loading {
+  margin-top:20px;
+  font-size: calc(10px + 2vmin);
+}
+
+.results-area h1 {
+  color:white;
+  font-size: calc(10px + 2vmin);
+margin-top: 30px;
+}
+
+.results-card-container{
+display: flex;
+flex-wrap:wrap;
+justify-content: center;
+
+}
+.result-card{
+  width: 30%;
+  border-radius: 5px;
+  background: white;
+  color: #f87c68;
+  margin: 5px;
+  padding: 0px 5px 10px 5px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.result-card h2 {
+  margin-bottom:5px;
+}
+
+.result-card p:first-of-type {
+  font-size: calc(10px + 0.5vmin);
+  margin-top: 0;
+}
+
+.result-card-price {
+  width: 75%;
+  background: #f87c68;
+  color:white;
+  border-radius: 5px;
+  font-size: calc(10px + 0.75vmin);
+  margin: 15px auto;
+  padding: 2px;
+}
+
+.result-card a {
+color: #f87c68;
+text-decoration: none;
+font-weight: 700;
+padding: 0 10px;
+border-right: 3px solid #f87c68;
+border-left: 3px solid #f87c68;
+transition: all 500ms;
+}
+
+.result-card a:hover {
+  background: #f87c68;
+  color: white;
+  border-right: 3px solid white;
+  border-left: 3px solid white;
+  cursor: pointer;
+}
+
+.search-location {
+  color: white;
+  font-style: italic;
+}
